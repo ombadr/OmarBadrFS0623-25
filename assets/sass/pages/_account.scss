@@ -1,0 +1,23 @@
+#account-main-section {
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+#account-main-section-wrapper {
+  width: 1000px;
+  h1 {
+    border-bottom: 2px solid gray;
+  }
+  h2 {
+    font-size: 20px;
+    color: gray;
+  }
+  button {
+    border: none;
+    padding: 10px 30px;
+    background: #e0e0e0;
+  }
+  p {
+    color: $primary;
+  }
+}

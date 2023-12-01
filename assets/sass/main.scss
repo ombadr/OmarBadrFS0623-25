@@ -1,0 +1,11 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'pages/tv-shows';
+@import 'pages/edit-profile';
+@import 'pages/account';
+@import 'layout/header';
+@import 'layout/footer';
+
+body {
+  background-color: #000;
+  color: #fff;
+}

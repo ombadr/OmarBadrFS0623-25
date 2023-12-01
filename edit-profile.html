@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--BOOTSTRAP ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Edit Profile</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/tv-shows.html"
+            ><img
+              src="assets/img/netflix_logo.png"
+              alt="Netflix logo"
+              width="100"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <!--MAIN-->
+    <main class="d-flex justify-content-center align-items-center">
+      <div id="edit-profile-form">
+        <h1>Edit Profile</h1>
+        <form action="">
+          <div id="form-wrapper" class="d-flex">
+            <div class="position-relative" id="avatar-image">
+              <img
+                src="assets/img/avatar.png"
+                alt="Avatar image"
+                width="140px"
+                height="140px"
+                class="mb-3"
+              />
+              <a href="#" class="position-absolute start-0 p-1 m-2">
+                <i class="bi bi-pencil p-1"></i>
+              </a>
+            </div>
+
+            <div id="form-right-section">
+              <div id="form-right-section-1">
+                <h2>Strive Student</h2>
+                <p>Language:</p>
+                <button type="button" class="d-flex align-items-center">
+                  English <i class="bi bi-caret-down-fill ms-4"></i>
+                </button>
+              </div>
+
+              <div id="form-right-section-2">
+                <h2>Maturity Settings:</h2>
+                <p>ALL MATURITY RATINGS</p>
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button class="px-3">EDIT</button>
+              </div>
+
+              <div id="form-right-section-3">
+                <h2>Autoplay controls:</h2>
+                <div class="form-check d-flex align-items-center">
+                  <input
+                    class="form-check-input bg-transparent p-3 me-3"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Autoplay next episode in a series on all devices.
+                  </label>
+                </div>
+                <div class="form-check d-flex align-items-center">
+                  <input
+                    class="form-check-input bg-transparent p-3 me-3"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Autoplay previews while browsing on all devices.
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="submit-buttons">
+            <div id="buttons-wrapper">
+              <button>SAVE</button>
+              <button>CANCEL</button>
+              <button>DELETE PROFILE</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

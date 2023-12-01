@@ -1,0 +1,43 @@
+/* MAIN */
+
+/* FIRST SECTION */
+
+#first-section-left {
+  button {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: bold;
+    height: 40px;
+  }
+}
+
+#first-section-right {
+  .bi-text-left {
+    font-size: 30px;
+    padding: 1px 6px;
+    margin: -4px;
+    border: 2px solid #fff;
+    border-left-width: 3px;
+  }
+  .bi-justify {
+    font-size: 30px;
+    border: 1px solid #fff;
+    padding: 2px 6px;
+  }
+}
+
+/* SLIDERS SECTION */
+
+.slider-box {
+  max-width: 1750px;
+}
+
+.top-slider-buttons {
+  button {
+    background: #fff;
+    width: 50px;
+    height: 5px;
+    border: none;
+  }
+}

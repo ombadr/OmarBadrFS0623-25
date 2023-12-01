@@ -1,0 +1,38 @@
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+}
+
+.navbar-nav {
+  .nav-link {
+    color: rgb(196, 194, 194);
+
+    &.active {
+      color: #fff;
+    }
+  }
+}
+
+#navbar-right-icons {
+  .bi-search {
+    color: #fff;
+    font-size: 25px;
+  }
+  button {
+    color: #fff;
+    border: none;
+    background: transparent;
+  }
+  .bi-bell-fill {
+    color: #fff;
+    font-size: 25px;
+  }
+  .bi-caret-down-fill {
+    color: #fff;
+    font-size: 15px;
+  }
+}

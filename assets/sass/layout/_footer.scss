@@ -1,0 +1,35 @@
+/* FOOTER */
+
+#footer-social-icons {
+  .bi {
+    color: gray;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
+
+#footer-links ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 40px;
+  color: gray;
+
+  li {
+    margin-bottom: 15px;
+  }
+}
+
+#footer-wrapper {
+  button {
+    border: 1px solid gray;
+    color: gray;
+    background: transparent;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
+  p {
+    color: gray;
+    font-size: 15px;
+  }
+}
